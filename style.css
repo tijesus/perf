@@ -67,7 +67,7 @@ align-items: center;
 }
 .text a p{
   background-color: hsl(158, 36%, 37%);
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%) !important;
   text-align: center;
   padding: 10px;
   border-radius: 8px
@@ -91,11 +91,14 @@ align-items: center;
     width:750px;
     margin: 20 auto;
     background-color: hsl(30, 38%, 92%);
+    border-radius: 0;
+    box-shadow: 0px 0px 20px px grey;
+    /* box-shadow: 7px 7px 5px 7px grey inset; */
     }
 
 img {
   /* width: 370px; */
-  border-radius: none;
+  border-radius: 0;
   }
   .text{
     margin: 50px auto;
